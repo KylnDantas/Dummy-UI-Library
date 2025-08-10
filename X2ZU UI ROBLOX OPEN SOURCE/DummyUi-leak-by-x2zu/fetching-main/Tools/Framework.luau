@@ -4622,16 +4622,16 @@ function Library:Window(p)
 
 		Close_1.MouseButton1Click:Connect(function()
 			Tabs:Dialog({
-				Title = "Do you want to <font color='#FF0000'>close</font> the ui?",
+				Title = "DO YOU WANT TO <font color='#FF0000'>CLOSE</font> THE UI?",
 				Button1 = {
-					Title = 'Confirm',
+					Title = 'CONFIRM',
 					Color = Color3.fromRGB(0, 188, 0),
 					Callback = function()
 						ScreenGui:Destroy()
 					end,
 				},
 				Button2 = {
-					Title = 'Cancel',
+					Title = 'CANCEL',
 					Color = Color3.fromRGB(226, 39, 6),
 				}
 			})
